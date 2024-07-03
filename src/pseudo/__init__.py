@@ -1,1 +1,0 @@
-from pseudo.minimize import minimize

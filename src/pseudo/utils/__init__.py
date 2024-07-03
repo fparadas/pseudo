@@ -1,1 +1,1 @@
-from utils.problems import rosenbrock, rosen_boundaries
+from pseudo.utils.problems import rosenbrock, rosen_boundaries
