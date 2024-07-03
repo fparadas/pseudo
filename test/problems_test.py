@@ -1,6 +1,6 @@
 import pytest
 import numpy as np
-from pseudo.utils.problems import rosenbrock, rosen_boundaries
+from pseudo.problems import rosenbrock, rosen_boundaries
 
 def test_rosenbrock_known_input():
     x = np.array([1, 2, 3])
