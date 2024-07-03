@@ -11,7 +11,7 @@ setup(
     license="MIT",
     packages=find_packages(),
     install_requires=[
-        "numpy>=2.0,<3.0",
+        "numpy>=1.26.0,<3.0",
         "python>=3.10"
     ],
     extras_require={
