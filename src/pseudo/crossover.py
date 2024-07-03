@@ -16,6 +16,6 @@ def cross(Cr, mutants, population):
     cross_points = np.random.rand(NP, DIM) < Cr
 
     if not np.any(cross_points):
-        cross_points[np.random.randint(0, DIM)] = True
+        cross_points[np.random.randint(0, NP)] = True
 
     return np.where(cross_points, mutants, population)

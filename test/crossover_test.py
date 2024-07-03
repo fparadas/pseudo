@@ -5,8 +5,8 @@ from pseudo.crossover import cross
 def test_no_crossover_points():
     np.random.seed(1)  # Setting seed for predictable randomness
     Cr = 0.0  # No crossover should happen, but function forces at least one
-    mutants = np.array([[1, 1], [1, 1]])
-    population = np.array([[0, 0], [0, 0]])
+    mutants = np.array([[1, 1, 1], [1, 1, 1]])
+    population = np.array([[0, 0, 0], [0, 0, 0]])
     result = cross(Cr, mutants, population)
     assert np.any(result != population)  # At least one element should differ
 
