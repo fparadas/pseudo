@@ -12,7 +12,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "numpy>=2.0,<3.0",
-        "python>=3.12"
+        "python>=3.10"
     ],
     extras_require={
         "dev": [
