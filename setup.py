@@ -12,7 +12,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         "numpy>=1.26.0,<3.0",
-        "python>=3.10"
+        "python>=3.10",
+        "tqdm>=4.62.3,<5.0",
     ],
     extras_require={
         "dev": [
